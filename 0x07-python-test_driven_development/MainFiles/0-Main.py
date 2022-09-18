@@ -10,6 +10,7 @@ print("")
 
 """Testing b(98) as default number:"""
 
+
 print("Testing b(98) as default number:")
 print("---------")
 print(add_integer(10))
