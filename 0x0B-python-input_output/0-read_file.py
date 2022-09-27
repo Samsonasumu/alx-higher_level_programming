@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-Module that contains a function that reads from a text file (UTF8)
+read file function
 """
 
 
@@ -13,6 +13,6 @@ def read_file(filename=""):
 
     """
 
-    with open(filename, encoding="utf-8", mode="r") as f:
-        read_text = f.read()
-        print(read_text, end="")
+    with open(filename, "r", encoding=("utf-8")) as text:
+        lines = text.read()
+    print(lines, end="")
